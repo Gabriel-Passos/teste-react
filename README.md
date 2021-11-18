@@ -8,6 +8,8 @@
   <a href="https://styled-components.com/"><img src="https://img.shields.io/static/v1?label=Styled-Components&message=5.3.3&color=blue&style=flat"/><a/>
   <a href="https://www.typescriptlang.org//"><img src="https://img.shields.io/static/v1?label=TypeScript&message=4.1.2&color=blue&style=flat"/><a/>
 </p>
+    
+### [Aplicação Rodando no Netlify](https://angry-hawking-f043ed.netlify.app/) :rocket:
 
 ### Tópicos 
 
