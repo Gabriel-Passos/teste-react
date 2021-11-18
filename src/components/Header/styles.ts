@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const HeaderContainer = styled.header`
-  background-color: var(--color-blue-500);
+  background-color: var(--color-grey-750);
 `;
 
 export const HeaderContent = styled.div`

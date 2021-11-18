@@ -1,7 +1,23 @@
-import styled from 'styled-components';
+import styled, { css } from 'styled-components';
 
-export const FooterContainer = styled.footer`
+interface FooterContainerProps {
+  initialBoard?: string;
+}
+
+export const FooterContainer = styled.footer<FooterContainerProps>`
   background-color: var(--color-grey-750);
+  width: 100%;
+
+  ${props => props.initialBoard 
+    ? css`
+      position: static;
+    ` : 
+    css`
+      position: fixed;
+      left: 0;
+      bottom: 0;
+    `
+  }
 `;
 
 export const FooterContent = styled.div`

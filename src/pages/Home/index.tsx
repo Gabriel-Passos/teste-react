@@ -12,6 +12,8 @@ export const Home: React.FC = () => {
       <Header />
 
       <Main>
+        <strong>Selecione uma diretoria para ver seus dados na tabela</strong>
+
         <Select />
 
         <section>

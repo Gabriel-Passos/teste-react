@@ -15,7 +15,7 @@ export const Select: React.FC = () => {
       value={selectedBoard} 
       onChange={event => setSelectedBoard(event.target.value)}
     >
-      <option value="DEFAULT">Selecione uma diretoria</option>
+      <option>Selecione uma diretoria</option>
       
       {boards.results?.map(board => (
         <option key={board.dre} value={board.dre}>{board.diretoria}</option>

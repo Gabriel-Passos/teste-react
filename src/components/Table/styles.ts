@@ -10,15 +10,10 @@ export const TableContainer = styled.table`
   thead {
     tr {
       th {
-        padding: 0 16px 16px;
+        padding: 16px;
         border: 1px solid var(--color-grey-150);
         font-weight: 500;
         vertical-align: bottom;
-
-        &:last-child {
-          font-weight: 400;
-          padding: 16px 24px;
-        }
 
         &:first-child {
           cursor: default;
